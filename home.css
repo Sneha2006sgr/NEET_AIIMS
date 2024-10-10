@@ -1,0 +1,19 @@
+//CSS code for Home page
+<style>
+    body{text-align:center;}
+    h1{color:crimson;text-align:center;background-image: radial-gradient(cyan,blue);font-family:Algerian;font-size:70px}
+    table{background-image: radial-gradient(pink,violet,purple,indigo,navy);colspan:30px;position:static;}
+    tr{height:300px; width:200px;align:center;}
+    td{height:300px;width:150px;}
+    #tb{height:250px;widht:100px;border:3px aquamarine solid;}
+    #sb{background-image: radial-gradient(yellow,orange,crimson,red);border:3px solid cyan;color:rgb(5, 6, 61);font-family:Times New Roman;text-align:center;Font-size:30px;}
+    #dc{height:700px;width:500px;}
+    #wl{Text-shadow:4px 4px rgb(231, 248, 82);}
+    #cmn{text-align:center;color:darkturquoise;border:1px solid mediumseagreen;font-family:Bernard MT Condensed;background-color: deeppink  ;}
+    #logout{background-color: aqua;}
+    #log{color:rgb(122, 73, 236);display:inline;}
+    #snd{display:inline}
+    #dp{color:coral;font-family:Algerian;text-decoration:underline(double);text-align:center;margin:130px ;display:center;}
+    #ps{color:coral;font-family:Algerian;text-decoration:underline(double);text-align:center;margin:130px ;display:center;}
+    #mcq{color:coral;font-family:Algerian;text-decoration:underline(double);text-align:center;margin:130px ;display:center;}
+</style>

@@ -1,0 +1,18 @@
+//CSS page for login page
+<style>
+        body{align:center ;color:rgb(138, 20, 5); }
+        form{background-image:radial-gradient(#ffc0cb,violet,purple,indigo);
+            width:800px;
+            height:400px;
+            border:20px outset rgb(145, 6, 75);
+            padding:40px 50px 40px 50px; 
+            margin:10px 900px 10px 900px; 
+            text-align:center;
+            font-family:ALGERIAN; 
+            align: center;
+            }
+        h1{color:rgb(33, 2, 68);text-shadow:4px 3px rgb(81, 3, 126)} 
+        .stetho{height:400px;width:500px;display:inline; }
+        .aiims{height:400px;width:600px;display:inline}
+       #bg{background-image:radial-gradient(blue,navy)}
+</style>

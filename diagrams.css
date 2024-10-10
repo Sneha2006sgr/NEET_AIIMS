@@ -1,0 +1,9 @@
+//CSS Code for diagrams
+<style>
+            body{text-align:center;color:chartreuse}
+            h1{color:cyan;text-align:center;font-size:90px;font-family:Algerian;text-shadow:4px 4px green}
+            table{background-image:radial-gradient(violet,magenta,deeppink,purple);text-align:center;border:3px chartreuse solid;}
+            td{height:200px;width:250px;text-align:center;}
+            a{border:2px black;}
+            img{height:200px; width:250px;}  
+        </style>    
