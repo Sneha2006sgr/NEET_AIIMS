@@ -1,18 +1,84 @@
-//CSS page for login page
-<style>
-        body{align:center ;color:rgb(138, 20, 5); }
-        form{background-image:radial-gradient(#ffc0cb,violet,purple,indigo);
-            width:800px;
-            height:400px;
-            border:20px outset rgb(145, 6, 75);
-            padding:40px 50px 40px 50px; 
-            margin:10px 900px 10px 900px; 
-            text-align:center;
-            font-family:ALGERIAN; 
-            align: center;
-            }
-        h1{color:rgb(33, 2, 68);text-shadow:4px 3px rgb(81, 3, 126)} 
-        .stetho{height:400px;width:500px;display:inline; }
-        .aiims{height:400px;width:600px;display:inline}
-       #bg{background-image:radial-gradient(blue,navy)}
-</style>
+/* Base styles */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: rgb(138, 20, 5);
+    font-family: Arial, sans-serif;
+  }
+  
+  form {
+    background-image: radial-gradient(#ffc0cb, violet, purple, indigo);
+    max-width: 800px;
+    width: 90%;
+    border: 20px outset rgb(145, 6, 75);
+    padding: 40px;
+    margin: 10px auto;
+    text-align: center;
+    font-family: 'ALGERIAN', serif;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    color: rgb(33, 2, 68);
+    text-shadow: 4px 3px rgb(81, 3, 126);
+    font-size: 2.5rem;
+  }
+  
+  .stetho, .aiims {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    margin: 10px 0;
+  }
+
+  .stetho2, .aiims2 {
+    max-width: 100%;
+    height: auto;
+    display:flow-root;
+    margin: 10px 0;
+  }
+  
+  #bg {
+    background-image: radial-gradient(blue, navy);
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 1200px) {
+    form {
+      width: 80%;
+      margin: 10px auto;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    form {
+      width: 95%;
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    form {
+      border-width: 10px;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    .stetho, .aiims {
+      width: 100%;
+    }
+
+    .stetho2, .aiims2 {
+        width: 100%;
+      }
+  }
