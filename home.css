@@ -16,4 +16,20 @@
     #dp{color:coral;font-family:Algerian;text-decoration:underline(double);text-align:center;margin:130px ;display:center;}
     #ps{color:coral;font-family:Algerian;text-decoration:underline(double);text-align:center;margin:130px ;display:center;}
     #mcq{color:coral;font-family:Algerian;text-decoration:underline(double);text-align:center;margin:130px ;display:center;}
-</style>
+`   #footer {
+    background-color: rgb(77, 77, 77);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+    </style>
