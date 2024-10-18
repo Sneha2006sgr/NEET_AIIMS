@@ -6,6 +6,22 @@
     <title>Document</title>
     <style>
         body{background-image:radial-gradient(red,maroon,red);color:rgb(252, 235, 2)}
+        #footer {
+          background-color: rgb(77, 77, 77);
+          color: #fff;
+          text-align: center;
+          padding: 20px;
+          font-family: 'Courier New', Courier, monospace;
+          position: fixed;
+          bottom: 0;
+          width: 100%;
+        }
+        
+        .footer-content {
+          max-width: 800px;
+          margin: 0 auto;
+        }
+        
     </style>
 </head>
 <body> 
@@ -60,5 +76,10 @@
     <input type="checkbox" checked name="Q10" id="q">Logic<br>
     <input type="checkbox" disabled name="Q10" id="q">Symbol<br>
     <input type="checkbox" disabled name="Q10"id="q" >Numbers<br>
+    <footer id="footer">
+        <div class="footer-content">
+            <p>&copy; 2023 NEET-AIIMS. All Rights Reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
