@@ -1,4 +1,3 @@
-//CSS code for Home page
 <style>
     body{text-align:center;}
     h1{color:crimson;text-align:center;background-image: radial-gradient(cyan,blue);font-family:Algerian;font-size:70px}
@@ -16,7 +15,7 @@
     #dp{color:coral;font-family:Algerian;text-decoration:underline(double);text-align:center;margin:130px ;display:center;}
     #ps{color:coral;font-family:Algerian;text-decoration:underline(double);text-align:center;margin:130px ;display:center;}
     #mcq{color:coral;font-family:Algerian;text-decoration:underline(double);text-align:center;margin:130px ;display:center;}
-`   #footer {
+   #footer {
     background-color: rgb(77, 77, 77);
     color: #fff;
     text-align: center;
