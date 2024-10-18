@@ -5,7 +5,7 @@
             table{background-image:radial-gradient(violet,magenta,deeppink,purple);text-align:center;border:3px chartreuse solid;}
             td{height:200px;width:250px;text-align:center;}
             a{border:2px black;}
-            #imgs{height:200px; width:250px;}  
+            .imgs{height:200px; width:250px;}  
             
 #footer {
     background-color: rgb(77, 77, 77);
