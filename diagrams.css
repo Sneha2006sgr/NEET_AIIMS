@@ -22,6 +22,7 @@
     max-width: 800px;
     margin: 0 auto;
   }
+  #next{color:red;}
   #logout{background-color: aqua;}
   #log{color:rgb(122, 73, 236);display:inline;}
         </style>   
